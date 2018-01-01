@@ -1,0 +1,665 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37E2F8751FFA3FC0006A79A0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E2F8741FFA3FC0006A79A0 /* AppDelegate.m */; };
+		37E2F8781FFA3FC0006A79A0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E2F8771FFA3FC0006A79A0 /* ViewController.m */; };
+		37E2F87B1FFA3FC0006A79A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37E2F8791FFA3FC0006A79A0 /* Main.storyboard */; };
+		37E2F87D1FFA3FC0006A79A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37E2F87C1FFA3FC0006A79A0 /* Assets.xcassets */; };
+		37E2F8801FFA3FC0006A79A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37E2F87E1FFA3FC0006A79A0 /* LaunchScreen.storyboard */; };
+		37E2F8831FFA3FC0006A79A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E2F8821FFA3FC0006A79A0 /* main.m */; };
+		37E2F88D1FFA3FC0006A79A0 /* ChildLockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E2F88C1FFA3FC0006A79A0 /* ChildLockTests.m */; };
+		37E2F8981FFA3FC0006A79A0 /* ChildLockUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E2F8971FFA3FC0006A79A0 /* ChildLockUITests.m */; };
+		37E2F8A71FFA41FB006A79A0 /* OrientationUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E2F8A61FFA41FB006A79A0 /* OrientationUtils.m */; };
+		37E2F8AA1FFA4289006A79A0 /* PopController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E2F8A91FFA4289006A79A0 /* PopController.m */; };
+		37E2F8AD1FFA43E8006A79A0 /* ChildLockControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E2F8AC1FFA43E8006A79A0 /* ChildLockControl.m */; };
+		37E2F8B01FFA4591006A79A0 /* ChildLockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E2F8AF1FFA4591006A79A0 /* ChildLockView.m */; };
+		37E2F8B31FFA47CC006A79A0 /* CustomChildLockCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E2F8B21FFA47CC006A79A0 /* CustomChildLockCell.m */; };
+		E8B2CD21A9A67D64EE2C292A /* libPods-ChildLock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C6279A4B2EA779E2B02D0D1 /* libPods-ChildLock.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		37E2F8891FFA3FC0006A79A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37E2F8681FFA3FC0006A79A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37E2F86F1FFA3FC0006A79A0;
+			remoteInfo = ChildLock;
+		};
+		37E2F8941FFA3FC0006A79A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37E2F8681FFA3FC0006A79A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37E2F86F1FFA3FC0006A79A0;
+			remoteInfo = ChildLock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C6279A4B2EA779E2B02D0D1 /* libPods-ChildLock.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ChildLock.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37E2F8701FFA3FC0006A79A0 /* ChildLock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChildLock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37E2F8731FFA3FC0006A79A0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		37E2F8741FFA3FC0006A79A0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		37E2F8761FFA3FC0006A79A0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		37E2F8771FFA3FC0006A79A0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		37E2F87A1FFA3FC0006A79A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		37E2F87C1FFA3FC0006A79A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		37E2F87F1FFA3FC0006A79A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		37E2F8811FFA3FC0006A79A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37E2F8821FFA3FC0006A79A0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		37E2F8881FFA3FC0006A79A0 /* ChildLockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChildLockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		37E2F88C1FFA3FC0006A79A0 /* ChildLockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChildLockTests.m; sourceTree = "<group>"; };
+		37E2F88E1FFA3FC0006A79A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37E2F8931FFA3FC0006A79A0 /* ChildLockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChildLockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		37E2F8971FFA3FC0006A79A0 /* ChildLockUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChildLockUITests.m; sourceTree = "<group>"; };
+		37E2F8991FFA3FC0006A79A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37E2F8A51FFA41FB006A79A0 /* OrientationUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrientationUtils.h; sourceTree = "<group>"; };
+		37E2F8A61FFA41FB006A79A0 /* OrientationUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrientationUtils.m; sourceTree = "<group>"; };
+		37E2F8A81FFA4289006A79A0 /* PopController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PopController.h; sourceTree = "<group>"; };
+		37E2F8A91FFA4289006A79A0 /* PopController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopController.m; sourceTree = "<group>"; };
+		37E2F8AB1FFA43E8006A79A0 /* ChildLockControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChildLockControl.h; sourceTree = "<group>"; };
+		37E2F8AC1FFA43E8006A79A0 /* ChildLockControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChildLockControl.m; sourceTree = "<group>"; };
+		37E2F8AE1FFA4591006A79A0 /* ChildLockView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChildLockView.h; sourceTree = "<group>"; };
+		37E2F8AF1FFA4591006A79A0 /* ChildLockView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChildLockView.m; sourceTree = "<group>"; };
+		37E2F8B11FFA47CC006A79A0 /* CustomChildLockCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomChildLockCell.h; sourceTree = "<group>"; };
+		37E2F8B21FFA47CC006A79A0 /* CustomChildLockCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomChildLockCell.m; sourceTree = "<group>"; };
+		9A8449EDC640AF0EFFDDFA52 /* Pods-ChildLock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChildLock.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChildLock/Pods-ChildLock.debug.xcconfig"; sourceTree = "<group>"; };
+		B365EF69740693C3B04DF15D /* Pods-ChildLock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChildLock.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChildLock/Pods-ChildLock.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37E2F86D1FFA3FC0006A79A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8B2CD21A9A67D64EE2C292A /* libPods-ChildLock.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37E2F8851FFA3FC0006A79A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37E2F8901FFA3FC0006A79A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37E2F8671FFA3FC0006A79A0 = {
+			isa = PBXGroup;
+			children = (
+				37E2F8721FFA3FC0006A79A0 /* ChildLock */,
+				37E2F88B1FFA3FC0006A79A0 /* ChildLockTests */,
+				37E2F8961FFA3FC0006A79A0 /* ChildLockUITests */,
+				37E2F8711FFA3FC0006A79A0 /* Products */,
+				958FFC695BF5B7D2746FD1E9 /* Pods */,
+				E9B056D2339BA4F0F0D2A723 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		37E2F8711FFA3FC0006A79A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37E2F8701FFA3FC0006A79A0 /* ChildLock.app */,
+				37E2F8881FFA3FC0006A79A0 /* ChildLockTests.xctest */,
+				37E2F8931FFA3FC0006A79A0 /* ChildLockUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37E2F8721FFA3FC0006A79A0 /* ChildLock */ = {
+			isa = PBXGroup;
+			children = (
+				37E2F8731FFA3FC0006A79A0 /* AppDelegate.h */,
+				37E2F8741FFA3FC0006A79A0 /* AppDelegate.m */,
+				37E2F8761FFA3FC0006A79A0 /* ViewController.h */,
+				37E2F8771FFA3FC0006A79A0 /* ViewController.m */,
+				37E2F8A51FFA41FB006A79A0 /* OrientationUtils.h */,
+				37E2F8A61FFA41FB006A79A0 /* OrientationUtils.m */,
+				37E2F8A81FFA4289006A79A0 /* PopController.h */,
+				37E2F8A91FFA4289006A79A0 /* PopController.m */,
+				37E2F8AB1FFA43E8006A79A0 /* ChildLockControl.h */,
+				37E2F8AC1FFA43E8006A79A0 /* ChildLockControl.m */,
+				37E2F8AE1FFA4591006A79A0 /* ChildLockView.h */,
+				37E2F8AF1FFA4591006A79A0 /* ChildLockView.m */,
+				37E2F8B11FFA47CC006A79A0 /* CustomChildLockCell.h */,
+				37E2F8B21FFA47CC006A79A0 /* CustomChildLockCell.m */,
+				37E2F8791FFA3FC0006A79A0 /* Main.storyboard */,
+				37E2F87C1FFA3FC0006A79A0 /* Assets.xcassets */,
+				37E2F87E1FFA3FC0006A79A0 /* LaunchScreen.storyboard */,
+				37E2F8811FFA3FC0006A79A0 /* Info.plist */,
+				37E2F8821FFA3FC0006A79A0 /* main.m */,
+			);
+			path = ChildLock;
+			sourceTree = "<group>";
+		};
+		37E2F88B1FFA3FC0006A79A0 /* ChildLockTests */ = {
+			isa = PBXGroup;
+			children = (
+				37E2F88C1FFA3FC0006A79A0 /* ChildLockTests.m */,
+				37E2F88E1FFA3FC0006A79A0 /* Info.plist */,
+			);
+			path = ChildLockTests;
+			sourceTree = "<group>";
+		};
+		37E2F8961FFA3FC0006A79A0 /* ChildLockUITests */ = {
+			isa = PBXGroup;
+			children = (
+				37E2F8971FFA3FC0006A79A0 /* ChildLockUITests.m */,
+				37E2F8991FFA3FC0006A79A0 /* Info.plist */,
+			);
+			path = ChildLockUITests;
+			sourceTree = "<group>";
+		};
+		958FFC695BF5B7D2746FD1E9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9A8449EDC640AF0EFFDDFA52 /* Pods-ChildLock.debug.xcconfig */,
+				B365EF69740693C3B04DF15D /* Pods-ChildLock.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E9B056D2339BA4F0F0D2A723 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1C6279A4B2EA779E2B02D0D1 /* libPods-ChildLock.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37E2F86F1FFA3FC0006A79A0 /* ChildLock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37E2F89C1FFA3FC0006A79A0 /* Build configuration list for PBXNativeTarget "ChildLock" */;
+			buildPhases = (
+				8EFB8358E3FCF3708CB09861 /* [CP] Check Pods Manifest.lock */,
+				37E2F86C1FFA3FC0006A79A0 /* Sources */,
+				37E2F86D1FFA3FC0006A79A0 /* Frameworks */,
+				37E2F86E1FFA3FC0006A79A0 /* Resources */,
+				7994833A3932BF47FB620204 /* [CP] Embed Pods Frameworks */,
+				124D426C0FD1FD77F28C2654 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChildLock;
+			productName = ChildLock;
+			productReference = 37E2F8701FFA3FC0006A79A0 /* ChildLock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		37E2F8871FFA3FC0006A79A0 /* ChildLockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37E2F89F1FFA3FC0006A79A0 /* Build configuration list for PBXNativeTarget "ChildLockTests" */;
+			buildPhases = (
+				37E2F8841FFA3FC0006A79A0 /* Sources */,
+				37E2F8851FFA3FC0006A79A0 /* Frameworks */,
+				37E2F8861FFA3FC0006A79A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37E2F88A1FFA3FC0006A79A0 /* PBXTargetDependency */,
+			);
+			name = ChildLockTests;
+			productName = ChildLockTests;
+			productReference = 37E2F8881FFA3FC0006A79A0 /* ChildLockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		37E2F8921FFA3FC0006A79A0 /* ChildLockUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37E2F8A21FFA3FC0006A79A0 /* Build configuration list for PBXNativeTarget "ChildLockUITests" */;
+			buildPhases = (
+				37E2F88F1FFA3FC0006A79A0 /* Sources */,
+				37E2F8901FFA3FC0006A79A0 /* Frameworks */,
+				37E2F8911FFA3FC0006A79A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37E2F8951FFA3FC0006A79A0 /* PBXTargetDependency */,
+			);
+			name = ChildLockUITests;
+			productName = ChildLockUITests;
+			productReference = 37E2F8931FFA3FC0006A79A0 /* ChildLockUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37E2F8681FFA3FC0006A79A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "王攀登";
+				TargetAttributes = {
+					37E2F86F1FFA3FC0006A79A0 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Manual;
+					};
+					37E2F8871FFA3FC0006A79A0 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 37E2F86F1FFA3FC0006A79A0;
+					};
+					37E2F8921FFA3FC0006A79A0 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 37E2F86F1FFA3FC0006A79A0;
+					};
+				};
+			};
+			buildConfigurationList = 37E2F86B1FFA3FC0006A79A0 /* Build configuration list for PBXProject "ChildLock" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 37E2F8671FFA3FC0006A79A0;
+			productRefGroup = 37E2F8711FFA3FC0006A79A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37E2F86F1FFA3FC0006A79A0 /* ChildLock */,
+				37E2F8871FFA3FC0006A79A0 /* ChildLockTests */,
+				37E2F8921FFA3FC0006A79A0 /* ChildLockUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37E2F86E1FFA3FC0006A79A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37E2F8801FFA3FC0006A79A0 /* LaunchScreen.storyboard in Resources */,
+				37E2F87D1FFA3FC0006A79A0 /* Assets.xcassets in Resources */,
+				37E2F87B1FFA3FC0006A79A0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37E2F8861FFA3FC0006A79A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37E2F8911FFA3FC0006A79A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		124D426C0FD1FD77F28C2654 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChildLock/Pods-ChildLock-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7994833A3932BF47FB620204 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChildLock/Pods-ChildLock-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8EFB8358E3FCF3708CB09861 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChildLock-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37E2F86C1FFA3FC0006A79A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37E2F8B31FFA47CC006A79A0 /* CustomChildLockCell.m in Sources */,
+				37E2F8781FFA3FC0006A79A0 /* ViewController.m in Sources */,
+				37E2F8AA1FFA4289006A79A0 /* PopController.m in Sources */,
+				37E2F8831FFA3FC0006A79A0 /* main.m in Sources */,
+				37E2F8B01FFA4591006A79A0 /* ChildLockView.m in Sources */,
+				37E2F8A71FFA41FB006A79A0 /* OrientationUtils.m in Sources */,
+				37E2F8751FFA3FC0006A79A0 /* AppDelegate.m in Sources */,
+				37E2F8AD1FFA43E8006A79A0 /* ChildLockControl.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37E2F8841FFA3FC0006A79A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37E2F88D1FFA3FC0006A79A0 /* ChildLockTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37E2F88F1FFA3FC0006A79A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37E2F8981FFA3FC0006A79A0 /* ChildLockUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		37E2F88A1FFA3FC0006A79A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37E2F86F1FFA3FC0006A79A0 /* ChildLock */;
+			targetProxy = 37E2F8891FFA3FC0006A79A0 /* PBXContainerItemProxy */;
+		};
+		37E2F8951FFA3FC0006A79A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37E2F86F1FFA3FC0006A79A0 /* ChildLock */;
+			targetProxy = 37E2F8941FFA3FC0006A79A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		37E2F8791FFA3FC0006A79A0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37E2F87A1FFA3FC0006A79A0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		37E2F87E1FFA3FC0006A79A0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37E2F87F1FFA3FC0006A79A0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		37E2F89A1FFA3FC0006A79A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		37E2F89B1FFA3FC0006A79A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37E2F89D1FFA3FC0006A79A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A8449EDC640AF0EFFDDFA52 /* Pods-ChildLock.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = ChildLock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Climb.ChildLock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		37E2F89E1FFA3FC0006A79A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B365EF69740693C3B04DF15D /* Pods-ChildLock.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = ChildLock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Climb.ChildLock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		37E2F8A01FFA3FC0006A79A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChildLockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Climb.ChildLockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChildLock.app/ChildLock";
+			};
+			name = Debug;
+		};
+		37E2F8A11FFA3FC0006A79A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChildLockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Climb.ChildLockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChildLock.app/ChildLock";
+			};
+			name = Release;
+		};
+		37E2F8A31FFA3FC0006A79A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChildLockUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Climb.ChildLockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChildLock;
+			};
+			name = Debug;
+		};
+		37E2F8A41FFA3FC0006A79A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChildLockUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Climb.ChildLockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChildLock;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37E2F86B1FFA3FC0006A79A0 /* Build configuration list for PBXProject "ChildLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37E2F89A1FFA3FC0006A79A0 /* Debug */,
+				37E2F89B1FFA3FC0006A79A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37E2F89C1FFA3FC0006A79A0 /* Build configuration list for PBXNativeTarget "ChildLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37E2F89D1FFA3FC0006A79A0 /* Debug */,
+				37E2F89E1FFA3FC0006A79A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37E2F89F1FFA3FC0006A79A0 /* Build configuration list for PBXNativeTarget "ChildLockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37E2F8A01FFA3FC0006A79A0 /* Debug */,
+				37E2F8A11FFA3FC0006A79A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37E2F8A21FFA3FC0006A79A0 /* Build configuration list for PBXNativeTarget "ChildLockUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37E2F8A31FFA3FC0006A79A0 /* Debug */,
+				37E2F8A41FFA3FC0006A79A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37E2F8681FFA3FC0006A79A0 /* Project object */;
+}
