@@ -39,7 +39,7 @@ alpha:1.0]
 - (void)generalUI {
     
     UIImageView *logoImgView = [UIImageView new];
-    logoImgView.image = [UIImage imageNamed:@"Frog-1"];
+    logoImgView.image = [UIImage imageNamed:@"Frog"];
     [self addSubview:logoImgView];
     
     // UI
